@@ -1,0 +1,53 @@
+[
+  {
+    "ContainingType": "API_TUBES_KPL_KELOMPOK_05.Controllers.BukuController",
+    "Method": "GET",
+    "RelativePath": "api/Buku",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_Barang.Barang, API_Barang, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_TUBES_KPL_KELOMPOK_05.Controllers.BukuController",
+    "Method": "GET",
+    "RelativePath": "api/Buku/{NamaBarang}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Judul",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NamaBarang",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_Barang.Barang",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
